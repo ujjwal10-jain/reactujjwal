@@ -1,0 +1,175 @@
+
+h1 {
+  text-align: center;
+  color: black;
+
+}
+/* src/Login.css */
+.login-container {
+  background-color: white; /* White background */
+  padding: 20px; /* Padding around the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 400px; /* Max width for the form */
+  margin: 50px auto; /* Center the form horizontally and add top margin */
+}
+
+.login-container h2 {
+  text-align: center; /* Center the heading */
+  color: #333; /* Dark text color */
+}
+
+.login-container form {
+  display: flex; /* Flexbox for form layout */
+  flex-direction: column; /* Column layout */
+}
+
+.login-container form div {
+  margin-bottom: 15px; /* Space between form fields */
+}
+
+.login-container label {
+  margin-bottom: 5px; /* Space between label and input */
+  font-weight: bold; /* Bold labels */
+}
+
+.login-container input {
+  padding: 10px; /* Padding inside inputs */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Rounded corners for inputs */
+  font-size: 16px; /* Font size for inputs */
+}
+
+.login-container button {
+  background-color: #4CAF50; /* Green background for button */
+  color: white; /* White text color */
+  padding: 10px; /* Padding inside button */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size for button */
+}
+
+.login-container button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+/* src/Registration.css */
+.register-container {
+  background-color: white; /* White background for the container */
+  padding: 20px; /* Padding around the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 400px; /* Maximum width of the form */
+  margin: 50px auto; /* Center the form with margin */
+}
+
+.register-container h2 {
+  text-align: center; /* Center the heading */
+  color: #333; /* Dark text color for heading */
+}
+
+.register-container form {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack form fields vertically */
+}
+
+.register-container form div {
+  margin-bottom: 15px; /* Space between form fields */
+}
+
+.register-container label {
+  margin-bottom: 5px; /* Space between label and input */
+  font-weight: bold; /* Bold labels for better visibility */
+}
+
+.register-container input {
+  padding: 10px; /* Padding inside inputs */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Rounded corners for inputs */
+  font-size: 16px; /* Font size for inputs */
+}
+
+.register-container button {
+  background-color: #4CAF50; /* Green background for button */
+  color: white; /* White text color */
+  padding: 10px; /* Padding inside button */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size for button */
+}
+
+.register-container button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+/* styles.css */
+
+/* Base styles for desktop */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Media query for mobile devices */
+@media (min-width: 400px) and (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    padding: 10px;
+    margin: 5px 0;
+  }
+}
+/* styles.css */
+
+/* Base styles for mobile */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 10px;
+}
+
+/* Media query for desktop devices */
+@media (min-width: 769px) {
+  body {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  li {
+    flex: 1 1 calc(25% - 10px); /* Four items per row on wider screens */
+    margin: 5px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+}

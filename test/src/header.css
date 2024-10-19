@@ -1,0 +1,33 @@
+/* src/Header.css */
+.header {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 15px; /* Spacing around content */
+    text-align: center; /* Center the text */
+    position: relative; /* For positioning */
+  }
+  
+  .header nav {
+    margin-top: 10px; /* Space between title and nav */
+  }
+  
+  .header nav ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+  }
+  
+  .header nav ul li {
+    display: inline; /* Display list items in a line */
+    margin: 0 15px; /* Space between links */
+  }
+  
+  .header nav ul li a {
+    color: black; /* White text for links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make links bold */
+  }
+  
+  .header nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  

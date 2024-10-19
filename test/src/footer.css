@@ -1,0 +1,50 @@
+/* src/Footer.css */
+.footer {
+    position: inherit;
+    background-color: #333; /* Dark background color */
+    color: white; /* White text color */
+    padding: 20px; /* Padding around content */
+    text-align: center; /* Center the text */
+    position: relative; /* Relative positioning */
+    bottom: 0; /* Stick to the bottom of the page */
+    width: 100%; /* Full width */
+  }
+  
+  .footer nav {
+    margin-top: 10px; /* Space between text and navigation */
+  }
+  
+  .footer nav ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+  }
+  
+  .footer nav ul li {
+    display: inline; /* Display list items in a line */
+    margin: 0 15px; /* Space between links */
+  }
+  
+  .footer nav ul li a {
+    color: white; /* White text for links */
+    /* Remove underline from links */
+    font-weight: bold; /* Bold links */
+  }
+  
+  .footer nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .footer .social-media {
+    margin-top: 15px; /* Space above social media links */
+  }
+  
+  .footer .social-media a {
+    color: white; /* White color for social media links */
+    margin: 0 10px; /* Space between social media icons */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .footer .social-media a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  

@@ -1,0 +1,50 @@
+/* src/Login.css */
+.login-container {
+    background-color: white; /* White background */
+    padding: 20px; /* Padding around the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 400px; /* Max width for the form */
+    margin: 50px auto; /* Center the form horizontally and add top margin */
+  }
+  
+  .login-container h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark text color */
+  }
+  
+  .login-container form {
+    display: flex; /* Flexbox for form layout */
+    flex-direction: column; /* Column layout */
+  }
+  
+  .login-container form div {
+    margin-bottom: 15px; /* Space between form fields */
+  }
+  
+  .login-container label {
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Bold labels */
+  }
+  
+  .login-container input {
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 16px; /* Font size for inputs */
+  }
+  
+  .login-container button {
+    background-color: #4CAF50; /* Green background for button */
+    color: white; /* White text color */
+    padding: 10px; /* Padding inside button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size for button */
+  }
+  
+  .login-container button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
